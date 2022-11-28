@@ -18,10 +18,9 @@ html{
 .container_one{
     background: #fff;
     display: flex;
-    /* grid-template-rows: repeat(3,1fr); */
     flex-direction: row; 
-    flex-wrap: wrap; 
-    justify-content:space-around; 
+    justify-content:space-between;
+    align-items: center; 
     padding: 14px; 
   
 }
@@ -49,18 +48,17 @@ html{
     flex-direction: row;
     align-items: center;
     background: #fff;
-    gap: 30px; 
-    padding-right: 60px;
+    gap: 20px; 
+    padding-right: 190px;
 }
 .udemy_biz img{
     width: auto;
     height: auto;
-    /* width: 40px;
-    height: 20px; */
 }
 .udemy_biz nav li{
     display: inline; 
     color: black;
+    gap: 5px;
 }
 .udemy_biz a{
     font-size: 15px;
@@ -69,35 +67,35 @@ html{
     color: black;
 }
 .log_in{
-    /* display: grid;
-    grid-template-rows: repeat(3, 1fr); */
-    align-items: center;
+    /* display: flex;
+    flex-direction: row; */
+    /* display: inline; */
+    /* align-items: center; */
     background: #fff;
-    /* gap: 20px; */
+    gap: 10px; 
 }
 .login_ul{
-    width: 50px;
-    height: 30px;
-    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
     display: inline;
 }
 .login_ul a{
     list-style-type: none;
 }
 .login {
+    border: 1px solid #1c1d1f;
     background: #fff;
     color: #1c1d1f
 }
 .sign_up{
+    border: 1px solid #1c1d1f;
     color: white;
     background: black;
 }
 .log_in img {
     background: white;
-    display: inline;
-    gap: 10px;
-    /* width: 80px; 
-    height: 20px;  */
+    /* display: inline;
+    gap: 10px; */
 }
 .section_two{
     display: flex;
@@ -135,6 +133,8 @@ html{
     display: inline;
     list-style-type: none;
     justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 .course_list span{
     gap: 30px;
@@ -317,9 +317,11 @@ html{
 .list li a {
     margin-top: 20px;
 }
-/* .explore_btn{
-    padding-left: 40px;
-} */
+.explore_btn{
+    background: #f7f9fa;
+    padding-right: 100px;
+    padding: 10px;
+}
 .list li{
     list-style-type: none;
 }
