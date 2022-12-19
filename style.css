@@ -79,13 +79,17 @@ html{
 }
 .login{
     border: 1px solid #1c1d1f;
-    width: 70px;
-    background: #fff;
+    width: 140px;
+    padding: 6px;
+    font-size: 15px;
+    background: white;
     color: #1c1d1f
 }
 .sign_up{
     border: 1px solid #1c1d1f;
-    width: 70px;
+    width: 120px;
+    padding: 6px;
+    font-size: 15px;
     color: white;
     background: black;
 }
